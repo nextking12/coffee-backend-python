@@ -8,7 +8,7 @@ load_dotenv()
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL", 
-    "postgresql://postgres:password@localhost:5432/cruddb"
+    "postgresql://postgres:password@localhost:5432/coffee_db"
 )
 
 engine = create_engine(DATABASE_URL)
